@@ -1,9 +1,11 @@
-// Funciones flecha
-var s = function(a , b) { return a + b;};
+var x = function(a, b) {
+    return a + b;
+}
 
-console.log(s(4,6));
+var y = (a, b) => {
+    c = a + b;
+    return c;
+};
 
-var c =  (a , b) => a + b;
 
-console.log(c(3,8));
-
+console.log(x(3, 4), y(5, 6));
