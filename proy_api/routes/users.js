@@ -28,9 +28,9 @@ router.post('/login', function(req, res, next) {
         var resultado = null;
         cursor.on('data', (u) => {
             resultado = u; // ha encontrado el usuario
-            console.log(u);
         });
         cursor.on('end', () => {
+            console.log("end", resultado);
             if (resultado != null) {
                 req.session.autenticado = true;
                 req.session.nombre = resultado.nombre;
@@ -42,7 +42,6 @@ router.post('/login', function(req, res, next) {
             }
         });
     } else {
-        req.session.autenticado = false;
         res.send("El usuario esta autenticado, favor deslogearse");
     }
 });

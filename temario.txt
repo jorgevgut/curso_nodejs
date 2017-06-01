@@ -1,0 +1,19 @@
+Curso Node.js: Desarrollo de software profesional
+
+- Bienvenida
+- Herramientas y entorno de desarrollo
+- Esenciales de javascript
+- npm
+- Intro a Node.js
+- API de Node.js
+- Proyecto de cliente HTTP
+- Back-end
+- Bases de datos
+- Proyecto: API
+- Front-end
+- Intro a React.js
+- Node esencial para apps en tiempo real
+- Intro a manejo de procesos
+- Testing
+- Liberación de código (OpenSource)
+- Conclusiones

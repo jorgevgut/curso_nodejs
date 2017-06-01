@@ -3,6 +3,7 @@ var router = express.Router();
 const colleccion = 'productos';
 
 function validarUsuarioLogeado(req, res, next) {
+    console.log(req.session);
     if (req.session.autenticado == true) {
         next()
     } else {

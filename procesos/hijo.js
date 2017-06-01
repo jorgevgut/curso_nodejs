@@ -5,4 +5,5 @@ process.on('message', (mensaje) => {
     process.send({
         msg: "mensaje recibido"
     });
+    process.exit(0);
 });

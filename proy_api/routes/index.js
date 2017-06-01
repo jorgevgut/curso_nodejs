@@ -10,7 +10,8 @@ router.get('/', function(req, res, next) {
             nombre: 'Jorge',
             contenido: "Este es un texto"
         },
-        script: "javascripts/main.js"
+        //script: "javascripts/main.js"
+        script: "javascripts/login.js"
     });
 });
 

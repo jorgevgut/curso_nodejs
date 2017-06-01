@@ -21,7 +21,7 @@ app.set('port', port);
 
 var server;
 
-var url = "mongodb://mongodb@127.0.0.1:32770/proyecto_api";
+var url = "mongodb://mongodb@127.0.0.1:32768/proyecto_api";
 db.connect(url, (err, db) => {
     if (err) {
         console.log("ERROR de conexión con BD");
